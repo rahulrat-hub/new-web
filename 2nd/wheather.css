@@ -1,0 +1,216 @@
+* {
+ margin:0;
+ padding: 0;
+ box-sizing:border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?cs=srgb&dl=pexels-fabianwiktor-994605.jpg&fm=jpg);
+   background-size: auto;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.box{
+    height: 400px;
+    width: 450px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.box h1{
+    color: rgb(236, 132, 57);
+    margin-top: 10px ;
+    font-size: 1.97rem;
+}
+
+.box p{
+    font-size: 0.98rem;
+}
+
+.in{
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+    
+}
+
+.calender1{
+    width: 337px;
+    background-color: rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+     height: 80%;
+  text-align: left;
+}
+
+.calender1 p{
+    margin: 5px 6px;
+    color: white;
+}
+
+button{
+    height: 80%;
+    border-radius: 10px;
+    width: 80px;
+    margin: 0 5px;
+    background-color: chocolate;
+    color: white;
+}
+
+.box3{
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 5px 10px;
+    position: relative;
+  
+}
+
+.circle{
+    background-color:rgb(241, 107, 84);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+        left: 29px;
+    top: 28px;
+}
+
+.text{
+        display: inline-block;
+    margin: 28px 0;
+}
+
+.text p{
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.text h2{
+    color: chocolate;
+}
+
+.box4{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(1,100px);
+    margin: 20px 12px;
+    gap: 10px;
+}
+
+.one{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.two{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.three{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.four{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.circle2{
+    height: 25px;
+    width: 25px;
+    background-color: rgb(244, 105, 80);
+    border-radius: 50%;
+    position: absolute;
+        top: 41px;
+    left: 36px;
+}
+
+.one p {
+    position: absolute;
+    top: 70px;
+    left: 16px;
+}
+
+.one h4{
+    position: absolute;
+    top: 9px;
+    left: 17px;
+}
+
+.two h4{
+    position: absolute;
+    top: 9px;
+    left: 17px;
+}
+
+.two p{
+    position: absolute;
+    left: 16px;
+    top: 70px;
+}
+
+.two span{
+    position: absolute;
+    top: 38px;
+    right: 46px;
+    font-size: 22px;
+    color: white;
+}
+
+.three span{
+    position: absolute;
+    top: 38px;
+    right: 46px;
+    font-size: 22px;
+    color: white;
+}
+
+.four span{
+    position: absolute;
+    top: 38px;
+    right: 46px;
+    font-size: 22px;
+    color: white;
+}
+
+.three p{
+    position: absolute;
+    left: 16px;
+    top: 70px;
+}
+
+.three h4{
+    position: absolute;
+    top: 9px;
+    left: 17px;
+}
+
+.four h4{
+    position: absolute;
+    top: 9px;
+    left: 7px;
+}
+
+.four p{
+    position: absolute;
+    left: 16px;
+    top: 70px;
+}
+
+button:hover{
+    background-color: rgb(248, 68, 36);
+} 
+
+
+
